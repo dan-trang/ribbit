@@ -3,6 +3,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+<<<<<<< HEAD
 require("reflect-metadata");
 const core_1 = require("@mikro-orm/core");
 const mikro_orm_config_1 = __importDefault(require("./mikro-orm.config"));
@@ -27,6 +28,13 @@ const main = async () => {
     app.listen(4000, () => {
         console.log('server started on localhost:4000');
     });
+=======
+const core_1 = require("@mikro-orm/core");
+const mikro_orm_config_1 = __importDefault(require("./mikro-orm.config"));
+const main = async () => {
+    const orm = await core_1.MikroORM.init(mikro_orm_config_1.default);
+    orm.getMigrator().up();
+>>>>>>> 28bef2bd78a4fd37d2547269b773f6690c3e9398
 };
 main().catch((err) => {
     console.error(err);
