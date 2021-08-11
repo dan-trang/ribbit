@@ -4,4 +4,4 @@ Ribbit is my first attempt at a fullstack web application built from back to fro
 1. Get hands on experience and exposure to building the entire stack
 1. Seeing all the moving parts of a web application
 1. Learning new frameworks and languages
-1. Using the boilerplate code as a launch pad to further develop/customize/learn
+1. Using the boilerplate code as a launch pad to further develop/customize/learn on my own
